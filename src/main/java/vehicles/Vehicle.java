@@ -15,9 +15,7 @@ public abstract class Vehicle {
     private String colour;
     private double price;
 
-    public Vehicle(Engine engine, BodyType bodyType, String colour, double price){
-        this.engine = engine;
-        this.bodyType = bodyType;
+    public Vehicle(String colour, double price){
         this.colour = colour;
         this.price = price;
         this.tyres = new ArrayList<>();

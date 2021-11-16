@@ -5,7 +5,7 @@ import behaviours.IParts;
 
 public enum BodyType {
 
-    MOTORBIKE(0, 2),
+    MOTORCYCLE(0, 2),
     TWODOOR(2, 4),
     FOURDOOR(4, 4);
 
