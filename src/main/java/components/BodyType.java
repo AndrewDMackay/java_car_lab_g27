@@ -17,4 +17,12 @@ public enum BodyType {
         this.doors = doors;
         this.tyres = tyres;
     }
+
+    public int getTyres() {
+        return this.tyres;
+    }
+
+    public int getDoors() {
+        return this.doors;
+    }
 }
